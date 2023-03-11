@@ -31,8 +31,16 @@ body{
     height: 15vmin;
 }
 
-footer{
+.left-side > footer{
     margin-top: auto;
+    color: #f7eaf2;
+    font-family: sans-serif;
+    font-size: 1.4vmin;
+    padding: 5px;
+}
+
+.left-side > footer > a{
+    color: inherit;
 }
 
 .form-wrapper{
