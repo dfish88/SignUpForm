@@ -12,31 +12,30 @@ body{
     background-image: url(./imgs/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 33vw;
+    width: 40vw;
     height: 100vh;
-}
-
-footer{
-    margin-top: auto;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 2vw;
     font-family: 'Climate Crisis', sans-serif;
-    font-size: 24px;
+    font-size: 3vmin;
+    margin-top: 25vh;
 }
 
 .logo > img{
-    max-width: 120px;
-    max-height: 120px;
-    width: auto;
-    height: auto
+    width: 15vmin;
+    height: 15vmin;
+}
+
+footer{
+    margin-top: auto;
 }
 
 .form-wrapper{
-    width: 67vw;
+    width: 60vw;
     background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
 }
