@@ -6,6 +6,8 @@ body{
 }
 
 .left-side{
+    display: flex;
+    justify-content: center;
     background-image: url(./imgs/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -13,8 +15,12 @@ body{
     height: 100vh;
 }
 
+footer{
+    margin-top: auto;
+}
 
 .logo{
+    position: absolute;
     font-family: 'Climate Crisis', sans-serif;
 }
 
