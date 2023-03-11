@@ -13,6 +13,12 @@ body{
     height: 100vh;
 }
 
+
 .logo{
     font-family: 'Climate Crisis', sans-serif;
+}
+
+.form-wrapper{
+    width: 67vw;
+    background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
 }
