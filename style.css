@@ -43,7 +43,20 @@ body{
     color: inherit;
 }
 
-.form-wrapper{
+.right-side{
     width: 60vw;
     background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
+    padding: 20vh 25vmin 20vh 5vmin;
 }
+
+.form-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-inputs > div{
+    display: flex;
+    flex-direction: column;
+}
+
