@@ -65,3 +65,11 @@ body{
     max-width: 30vw;
     flex-direction: column;
 }
+
+button,
+input,
+select{
+  font-family: inherit;
+  font-size: 100%;
+}
+
