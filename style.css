@@ -46,7 +46,6 @@ body{
 .right-side{
     width: 60vw;
     background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
-    padding: 20vh 25vmin 20vh 5vmin;
 }
 
 .form-inputs{
@@ -55,8 +54,14 @@ body{
     gap: 20px;
 }
 
-.form-inputs > div{
-    display: flex;
-    flex-direction: column;
+.form-block{
+    box-shadow: 10px 2px 15px rgb(170, 169, 169);
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
 }
 
+.form-inputs > div{
+    display: flex;
+    max-width: 30vw;
+    flex-direction: column;
+}
