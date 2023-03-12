@@ -21,9 +21,12 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    font-family: 'Climate Crisis', sans-serif;
     font-size: 3vmin;
     margin-top: 30vh;
+}
+
+.logo, .cult-name{
+    font-family: 'Climate Crisis', sans-serif;
 }
 
 .logo > img{
