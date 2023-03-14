@@ -76,6 +76,7 @@ body{
 .form-inputs > div{
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .form-block > header{
@@ -123,6 +124,7 @@ input{
     border-radius: 6px;
     padding: 5px;
     border: 2px solid #D6D9DC;
+    margin-right: 20px;
 }
 
 input:focus:valid{
