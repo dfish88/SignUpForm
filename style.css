@@ -57,7 +57,7 @@ body{
 .pitch{
     padding: 10vh 12vw 5vh 5vw;
     padding-right: 13vw;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .form-inputs{
@@ -85,7 +85,31 @@ body{
 }
 
 .form-inputs > div > label{
-    font-size: 11px;
+    font-size: 12px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 28px;
+}
+
+.submit > button{
+    width: 10vw;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to bottom right, #f8bce1, #98c9ba);
+}
+
+.submit > button:hover{
+    transform: scale(1.1);
+}
+
+.submit > button:active{
+    transform: translateY(4px);
 }
 
 input{
