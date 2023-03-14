@@ -122,7 +122,7 @@ input{
     outline: none; /* so we an see borders */
     border-radius: 6px;
     padding: 5px;
-    border: 1px solid #D6D9DC;
+    border: 2px solid #D6D9DC;
 }
 
 input:focus:valid{
