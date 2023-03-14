@@ -63,7 +63,7 @@ body{
 .form-inputs{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 20px 35px;
 }
 
 .form-block{
