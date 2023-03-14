@@ -112,6 +112,12 @@ body{
     transform: translateY(4px);
 }
 
+.submit > footer > a{
+    text-decoration: none;
+    color: #eb91c8;
+    font-weight: bold;
+}
+
 input{
     border-radius: 6px;
     padding: 5px;
