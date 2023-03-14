@@ -109,7 +109,7 @@ body{
 }
 
 .submit > button:active{
-    transform: translateY(4px);
+    transform: translateY(2px);
 }
 
 .submit > footer > a{
@@ -119,14 +119,18 @@ body{
 }
 
 input{
+    outline: none; /* so we an see borders */
     border-radius: 6px;
     padding: 5px;
     border: 1px solid #D6D9DC;
 }
 
-input:focus{
-    border: 2px solid #eb91c8;
-    box-shadow: 2px 2px 5px rgb(170, 169, 169);
+input:focus:valid{
+    border: 2px solid greenyellow;
+}
+
+input:invalid:focus{
+    border: 2px solid red;
 }
 
 button,
