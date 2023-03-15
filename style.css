@@ -176,6 +176,10 @@ fieldset label:has(+ input[type="radio"]:focus){
     border: 2px dashed #fd8bd1;
 }
 
+form label:has(+ input:required)::after{
+    content: ' *';
+}
+
 button,
 input,
 select{
