@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
+:root{
+    --light-pink: #f7eaf2;
+    --light-green: #cbd5d2;
+    --pink : #f8bce1;
+    --green : #98c9ba;
+    --dark-pink: #f897d3;
+    --shadow-color: rgb(170, 169, 169);
+    --form-background-color : rgba(255, 255, 255, 0.2);
+    --invalid-color : red;
+    --valid-color : greenyellow;
+}
+
 body{
     margin: 0;
     display: flex;
@@ -39,7 +51,7 @@ body{
 
 .left-side > footer{
     margin-top: auto;
-    color: #f7eaf2;
+    color: var(--light-pink);
     font-family: sans-serif;
     font-size: 1.4vmin;
     padding: 5px;
@@ -51,7 +63,7 @@ body{
 
 .right-side{
     width: 60vw;
-    background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
+    background-image: linear-gradient(to bottom right, var(--light-pink), var(--light-green));
 }
 
 .pitch{
@@ -66,9 +78,9 @@ body{
 }
 
 .form-block{
-    box-shadow: 10px 2px 15px rgb(170, 169, 169);
+    box-shadow: 10px 2px 15px var(--shadow-color);
     width: auto;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--form-background-color);
     padding: 30px;
 }
 
@@ -101,7 +113,7 @@ body{
     font-weight: bold;
     border-radius: 5px;
     border: none;
-    background-image: linear-gradient(to bottom right, #f8bce1, #98c9ba);
+    background-image: linear-gradient(to bottom right, var(--pink), var(--green));
 }
 
 .submit > button:hover{
@@ -114,7 +126,7 @@ body{
 
 .submit > footer > a{
     text-decoration: none;
-    color: #eb91c8;
+    color: var(--dark-pink);
     font-weight: bold;
 }
 
@@ -127,11 +139,11 @@ input{
 }
 
 input:focus:valid{
-    border: 2px solid greenyellow;
+    border: 2px solid var(--valid-color);
 }
 
 input:invalid:focus{
-    border: 2px solid red;
+    border: 2px solid var(--invalid-color);
 }
 
 fieldset{
@@ -139,10 +151,10 @@ fieldset{
     justify-content: center;
     gap: 4vw;
     width: 76%;
-    border: 3px solid #f8bce1;
+    border: 3px solid var(--pink);
     border-radius: 8px;
-    box-shadow: 10px 5px 15px rgb(170, 169, 169);
-    background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
+    box-shadow: 10px 5px 15px var(--shadow-color);
+    background-image: linear-gradient(to bottom right, var(--light-pink), var(--light-green));
     padding: 24px;
 }
 
@@ -161,19 +173,15 @@ fieldset label{
     background-color: whitesmoke;
     padding: 10px 20px;
     border-radius: 4px;
-    border: 2px solid #98c9ba;
+    border: 2px solid var(--green);
 }
 
 fieldset label:hover{
-    background-image: linear-gradient(to bottom right, #f7eaf2, #cbd5d2);
+    background-image: linear-gradient(to bottom right, var(--light-pink), var(--light-green));
 }
 
 fieldset label:has(+ input[type="radio"]:checked){
-    background-image: linear-gradient(to bottom right, #f8bce1, #98c9ba);
-}
-
-fieldset label:has(+ input[type="radio"]:focus){
-    border: 2px dashed #fd8bd1;
+    background-image: linear-gradient(to bottom right, var(--pink), var(--green));
 }
 
 form label:has(+ input:required)::after{
@@ -182,7 +190,7 @@ form label:has(+ input:required)::after{
 
 input[type="password"]:invalid:focus + span{
     visibility: visible;
-    color: red;
+    color: var(--invalid-color);
 }
 
 input[type="password"] + span{
