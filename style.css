@@ -191,10 +191,12 @@ form label:has(+ input:required)::after{
 input[type="password"]:invalid:focus + span{
     visibility: visible;
     color: var(--invalid-color);
+    height: auto;
 }
 
 input[type="password"] + span{
     visibility: hidden;
+    height: 0;
 }
 
 button,
