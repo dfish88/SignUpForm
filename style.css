@@ -199,6 +199,12 @@ input[type="password"] + span{
     height: 0;
 }
 
+.password-match{
+    visibility: hidden;
+    color: var(--invalid-color);
+    height: 0;
+}
+
 button,
 input,
 select{
