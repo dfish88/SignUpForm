@@ -55,7 +55,7 @@ body{
 }
 
 .pitch{
-    padding: 3vh 12vw 3vh 5vw;
+    padding: 2vh 12vw 2vh 5vw;
     font-size: 20px;
 }
 
@@ -92,7 +92,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 28px;
+    padding: 20px;
 }
 
 .submit > button{
@@ -178,6 +178,15 @@ fieldset label:has(+ input[type="radio"]:focus){
 
 form label:has(+ input:required)::after{
     content: ' *';
+}
+
+input[type="password"]:invalid:focus + span{
+    visibility: visible;
+    color: red;
+}
+
+input[type="password"] + span{
+    visibility: hidden;
 }
 
 button,
